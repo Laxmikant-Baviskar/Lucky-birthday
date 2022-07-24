@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');   */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');  */
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster:wght@300&display=swap');  */
+
+
+
+:root{
+    --primary-color:black;
+    --dark-gray:#6B7280;
+    --light-gray:#F9FAFB;
+    --offwhite: #d7f3fa;
+    --light-blue:#EFF6FF;
+    --baby-pink: #11008f;
+    --purple: #A5B4FC;
+    /* --pink:#FB9E9F; */
+    /* --pink:#b97bff; */
+    /* --pink: linear-gradient(180deg, rgba(255, 2, 139, 0.37) 6.45%, #C8026D 76.41%); */
+    /* --pink: linear-gradient(211.7deg, rgba(174, 2, 255, 0.54) 7.87%, #7306A7 45.25%); */
+    --pink:linear-gradient(171.45deg, rgba(255, 0, 184, 0.54) -18.57%, #7306A7 68.11%);
+
+    /* --pink:#7bfff0; */
+    /* #EE6C8A */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman';
+    background: var(--light-gray);
+    /* background: #EFF6FF; */
+}
+
+/** navigation **/
+
+.navigation {
+    
+    color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin: auto;
+    box-shadow: 0 1px 18px rgba(146,161,176,.15);
+    background: var(--pink);
+    color: white;
+    padding:0.5rem 2rem 0.5rem 2rem;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+
+/** containers **/
+.container {
+    
+    padding: 0rem 1rem;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 1px 18px rgba(146,161,176,.15);
+    
+    min-height:70vh;
+}
+
+.container-center{
+    max-width:600px;
+    margin:auto;
+    margin-top:1rem;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.row1{
+
+    display: flex;
+    justify-content: center;
+}
+
+ .column2{
+    margin:auto;
+    margin-right: 20%;
+    width: 70%;
+    size: 120%;
+}
+ 
+.column1{
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 20%;
+}
+
+/* .coloumn column1, 
+.coloumn column2 {
+    
+    margin: auto;
+    width: 70%;
+} */
+
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+input{
+    padding: 1rem;
+    color: #4b5563;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 1px 18px rgba(146,161,176,.15);
+    border-radius: 0.5rem;
+    width:60%;
+    margin-left:1.5rem;
+}
+
+button{
+    background: var(--pink) ;
+    border:none;
+    padding:1rem 4rem 1rem 4rem;
+    box-shadow: 0 1px 18px #EFF6FF;
+    border-radius: 0.25rem;
+    color: white;
+    font-size:1rem;
+    cursor: pointer;
+}
+
+.styled-table{
+    margin:auto;
+    border-collapse: collapse;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 3px 5px;
+  border: 1px solid #cccccc;
+}
+
+.row2{
+    display: none;
+}
+
+.error{
+    display: none;
+}
+
+.privacy-note{
+    border:  0.2px solid var(--pink);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+    background: white;
+    border-radius: 0.3rem;
+    box-shadow: 0 1px 18px rgba(146,161,176,.15);
+
+}
+
+.privacy-close{
+    color:red;
+    cursor: pointer;
+    font-size: 1rem;;
+}
+
+#date_label{
+    width:60%;
+}
+
+.output_msg{
+    width:60%;
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.output-msg{
+    width: 100%;
+    margin: auto;
+}
+
+.output-img{
+    width:80%;
+    object-fit: cover;
+}
+
+.error-msg{
+    color:red;
+}
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.25rem;
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.output-msg{
+    width:80%;
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.output-msg{
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+/* #header-img{
+    
+    width: 250px;
+    border-image: round;
+} */
+
+.lucky{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lucky-img{
+    
+    max-width: 10%;
+    margin-left: 30%;
+    
+}
